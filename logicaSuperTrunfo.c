@@ -262,7 +262,8 @@ int main() {
         printf("\nA carta %s venceu!\n", Cidade2);
     } else { // se ambas as cartas tiverem o mesmo número de pontos, o resultado é empate.
         printf("\nEmpate entre as cartas %s e %s!\n", Cidade1, Cidade2);
-    }
+    }   printf("\nObrigado pela participação!\n");
+        return 0;
     break; // fim do case 8.
 
     default: // caso o usuário escolha uma opção inválida.
@@ -384,7 +385,8 @@ int main() {
         printf("\nA carta %s venceu!\n", Cidade2);
     } else { // se ambas as cartas tiverem o mesmo número de pontos, o resultado é empate.
         printf("\nEmpate entre as cartas %s e %s!\n", Cidade1, Cidade2);
-    }
+    }   printf("\nObrigado pela participação!\n");
+        return 0;
     break; // fim do case 8.
 
     default: // caso o usuário escolha uma opção inválida.
